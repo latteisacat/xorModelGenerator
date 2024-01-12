@@ -1,0 +1,297 @@
+pytorch1.12.1:≥¶
+¥
+onnx::MatMul_1
+Constant_0"Constant*
+value*Jª'[@{É[@†2Ì	D:\PythonProjects\xorModelGenerator\main.py(23): forward
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\nn\modules\module.py(1112): _slow_forward
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\nn\modules\module.py(1128): _call_impl
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\jit\_trace.py(111): wrapper
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\jit\_trace.py(104): forward
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\nn\modules\module.py(1128): _call_impl
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\jit\_trace.py(1174): _get_trace_graph
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(517): _trace_and_get_graph_from_model
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(583): _create_jit_graph
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(724): _model_to_graph
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(1051): _export
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(171): export
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\__init__.py(354): export
+D:\PythonProjects\xorModelGenerator\main.py(11): <module>
+
+¶
+
+input
+onnx::MatMul_1onnx::Add_2MatMul_1"MatMul2Ì	D:\PythonProjects\xorModelGenerator\main.py(23): forward
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\nn\modules\module.py(1112): _slow_forward
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\nn\modules\module.py(1128): _call_impl
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\jit\_trace.py(111): wrapper
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\jit\_trace.py(104): forward
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\nn\modules\module.py(1128): _call_impl
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\jit\_trace.py(1174): _get_trace_graph
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(517): _trace_and_get_graph_from_model
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(583): _create_jit_graph
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(724): _model_to_graph
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(1051): _export
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(171): export
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\__init__.py(354): export
+D:\PythonProjects\xorModelGenerator\main.py(11): <module>
+
+´
+onnx::Add_3
+Constant_2"Constant*
+value*
+J˚©¿†2Ì	D:\PythonProjects\xorModelGenerator\main.py(23): forward
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\nn\modules\module.py(1112): _slow_forward
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\nn\modules\module.py(1128): _call_impl
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\jit\_trace.py(111): wrapper
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\jit\_trace.py(104): forward
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\nn\modules\module.py(1128): _call_impl
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\jit\_trace.py(1174): _get_trace_graph
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(517): _trace_and_get_graph_from_model
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(583): _create_jit_graph
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(724): _model_to_graph
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(1051): _export
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(171): export
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\__init__.py(354): export
+D:\PythonProjects\xorModelGenerator\main.py(11): <module>
+
+ß
+
+onnx::Add_2
+onnx::Add_3onnx::Sigmoid_4Add_3"Add2Ì	D:\PythonProjects\xorModelGenerator\main.py(23): forward
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\nn\modules\module.py(1112): _slow_forward
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\nn\modules\module.py(1128): _call_impl
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\jit\_trace.py(111): wrapper
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\jit\_trace.py(104): forward
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\nn\modules\module.py(1128): _call_impl
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\jit\_trace.py(1174): _get_trace_graph
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(517): _trace_and_get_graph_from_model
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(583): _create_jit_graph
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(724): _model_to_graph
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(1051): _export
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(171): export
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\__init__.py(354): export
+D:\PythonProjects\xorModelGenerator\main.py(11): <module>
+
+•
+
+onnx::Sigmoid_4onnx::Concat_5	Sigmoid_4"Sigmoid2Ì	D:\PythonProjects\xorModelGenerator\main.py(23): forward
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\nn\modules\module.py(1112): _slow_forward
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\nn\modules\module.py(1128): _call_impl
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\jit\_trace.py(111): wrapper
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\jit\_trace.py(104): forward
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\nn\modules\module.py(1128): _call_impl
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\jit\_trace.py(1174): _get_trace_graph
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(517): _trace_and_get_graph_from_model
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(583): _create_jit_graph
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(724): _model_to_graph
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(1051): _export
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(171): export
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\__init__.py(354): export
+D:\PythonProjects\xorModelGenerator\main.py(11): <module>
+
+¥
+onnx::MatMul_6
+Constant_5"Constant*
+value*J≈èè@ºtè@†2Ì	D:\PythonProjects\xorModelGenerator\main.py(23): forward
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\nn\modules\module.py(1112): _slow_forward
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\nn\modules\module.py(1128): _call_impl
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\jit\_trace.py(111): wrapper
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\jit\_trace.py(104): forward
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\nn\modules\module.py(1128): _call_impl
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\jit\_trace.py(1174): _get_trace_graph
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(517): _trace_and_get_graph_from_model
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(583): _create_jit_graph
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(724): _model_to_graph
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(1051): _export
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(171): export
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\__init__.py(354): export
+D:\PythonProjects\xorModelGenerator\main.py(11): <module>
+
+¶
+
+input
+onnx::MatMul_6onnx::Add_7MatMul_6"MatMul2Ì	D:\PythonProjects\xorModelGenerator\main.py(23): forward
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\nn\modules\module.py(1112): _slow_forward
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\nn\modules\module.py(1128): _call_impl
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\jit\_trace.py(111): wrapper
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\jit\_trace.py(104): forward
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\nn\modules\module.py(1128): _call_impl
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\jit\_trace.py(1174): _get_trace_graph
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(517): _trace_and_get_graph_from_model
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(583): _create_jit_graph
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(724): _model_to_graph
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(1051): _export
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(171): export
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\__init__.py(354): export
+D:\PythonProjects\xorModelGenerator\main.py(11): <module>
+
+´
+onnx::Add_8
+Constant_7"Constant*
+value*
+Jk+Êø†2Ì	D:\PythonProjects\xorModelGenerator\main.py(23): forward
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\nn\modules\module.py(1112): _slow_forward
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\nn\modules\module.py(1128): _call_impl
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\jit\_trace.py(111): wrapper
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\jit\_trace.py(104): forward
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\nn\modules\module.py(1128): _call_impl
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\jit\_trace.py(1174): _get_trace_graph
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(517): _trace_and_get_graph_from_model
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(583): _create_jit_graph
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(724): _model_to_graph
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(1051): _export
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(171): export
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\__init__.py(354): export
+D:\PythonProjects\xorModelGenerator\main.py(11): <module>
+
+ß
+
+onnx::Add_7
+onnx::Add_8onnx::Sigmoid_9Add_8"Add2Ì	D:\PythonProjects\xorModelGenerator\main.py(23): forward
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\nn\modules\module.py(1112): _slow_forward
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\nn\modules\module.py(1128): _call_impl
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\jit\_trace.py(111): wrapper
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\jit\_trace.py(104): forward
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\nn\modules\module.py(1128): _call_impl
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\jit\_trace.py(1174): _get_trace_graph
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(517): _trace_and_get_graph_from_model
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(583): _create_jit_graph
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(724): _model_to_graph
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(1051): _export
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(171): export
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\__init__.py(354): export
+D:\PythonProjects\xorModelGenerator\main.py(11): <module>
+
+¶
+
+onnx::Sigmoid_9onnx::Concat_10	Sigmoid_9"Sigmoid2Ì	D:\PythonProjects\xorModelGenerator\main.py(23): forward
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\nn\modules\module.py(1112): _slow_forward
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\nn\modules\module.py(1128): _call_impl
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\jit\_trace.py(111): wrapper
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\jit\_trace.py(104): forward
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\nn\modules\module.py(1128): _call_impl
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\jit\_trace.py(1174): _get_trace_graph
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(517): _trace_and_get_graph_from_model
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(583): _create_jit_graph
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(724): _model_to_graph
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(1051): _export
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(171): export
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\__init__.py(354): export
+D:\PythonProjects\xorModelGenerator\main.py(11): <module>
+
+¬
+
+onnx::Concat_5
+onnx::Concat_10onnx::MatMul_11	Concat_10"Concat*
+axis†2Ì	D:\PythonProjects\xorModelGenerator\main.py(24): forward
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\nn\modules\module.py(1112): _slow_forward
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\nn\modules\module.py(1128): _call_impl
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\jit\_trace.py(111): wrapper
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\jit\_trace.py(104): forward
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\nn\modules\module.py(1128): _call_impl
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\jit\_trace.py(1174): _get_trace_graph
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(517): _trace_and_get_graph_from_model
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(583): _create_jit_graph
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(724): _model_to_graph
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(1051): _export
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(171): export
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\__init__.py(354): export
+D:\PythonProjects\xorModelGenerator\main.py(11): <module>
+
+∂
+onnx::MatMul_12Constant_11"Constant*
+value*J™ÇÂ¿$óŸ@†2Ì	D:\PythonProjects\xorModelGenerator\main.py(24): forward
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\nn\modules\module.py(1112): _slow_forward
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\nn\modules\module.py(1128): _call_impl
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\jit\_trace.py(111): wrapper
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\jit\_trace.py(104): forward
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\nn\modules\module.py(1128): _call_impl
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\jit\_trace.py(1174): _get_trace_graph
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(517): _trace_and_get_graph_from_model
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(583): _create_jit_graph
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(724): _model_to_graph
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(1051): _export
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(171): export
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\__init__.py(354): export
+D:\PythonProjects\xorModelGenerator\main.py(11): <module>
+
+≥
+
+onnx::MatMul_11
+onnx::MatMul_12onnx::Add_13	MatMul_12"MatMul2Ì	D:\PythonProjects\xorModelGenerator\main.py(24): forward
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\nn\modules\module.py(1112): _slow_forward
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\nn\modules\module.py(1128): _call_impl
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\jit\_trace.py(111): wrapper
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\jit\_trace.py(104): forward
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\nn\modules\module.py(1128): _call_impl
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\jit\_trace.py(1174): _get_trace_graph
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(517): _trace_and_get_graph_from_model
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(583): _create_jit_graph
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(724): _model_to_graph
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(1051): _export
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(171): export
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\__init__.py(354): export
+D:\PythonProjects\xorModelGenerator\main.py(11): <module>
+
+≠
+onnx::Add_14Constant_13"Constant*
+value*
+JÈC¿†2Ì	D:\PythonProjects\xorModelGenerator\main.py(24): forward
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\nn\modules\module.py(1112): _slow_forward
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\nn\modules\module.py(1128): _call_impl
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\jit\_trace.py(111): wrapper
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\jit\_trace.py(104): forward
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\nn\modules\module.py(1128): _call_impl
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\jit\_trace.py(1174): _get_trace_graph
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(517): _trace_and_get_graph_from_model
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(583): _create_jit_graph
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(724): _model_to_graph
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(1051): _export
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(171): export
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\__init__.py(354): export
+D:\PythonProjects\xorModelGenerator\main.py(11): <module>
+
+´
+
+onnx::Add_13
+onnx::Add_14onnx::Sigmoid_15Add_14"Add2Ì	D:\PythonProjects\xorModelGenerator\main.py(24): forward
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\nn\modules\module.py(1112): _slow_forward
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\nn\modules\module.py(1128): _call_impl
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\jit\_trace.py(111): wrapper
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\jit\_trace.py(104): forward
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\nn\modules\module.py(1128): _call_impl
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\jit\_trace.py(1174): _get_trace_graph
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(517): _trace_and_get_graph_from_model
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(583): _create_jit_graph
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(724): _model_to_graph
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(1051): _export
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(171): export
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\__init__.py(354): export
+D:\PythonProjects\xorModelGenerator\main.py(11): <module>
+
+ü
+
+onnx::Sigmoid_15output
+Sigmoid_15"Sigmoid2Ì	D:\PythonProjects\xorModelGenerator\main.py(24): forward
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\nn\modules\module.py(1112): _slow_forward
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\nn\modules\module.py(1128): _call_impl
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\jit\_trace.py(111): wrapper
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\jit\_trace.py(104): forward
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\nn\modules\module.py(1128): _call_impl
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\jit\_trace.py(1174): _get_trace_graph
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(517): _trace_and_get_graph_from_model
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(583): _create_jit_graph
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(724): _model_to_graph
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(1051): _export
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\utils.py(171): export
+D:\anaconda3\envs\database_homework\lib\site-packages\torch\onnx\__init__.py(354): export
+D:\PythonProjects\xorModelGenerator\main.py(11): <module>
+	torch_jitZ
+input
+
+d
+b
+output
+
+d
+B
