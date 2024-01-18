@@ -34,13 +34,14 @@ model = CustomModel(weights)
 model.eval()
 
 # 입력 데이터
-input_data = torch.tensor([[0.45, 0.45]], dtype=torch.float32)
+input_data = torch.tensor([[0.7697, 0.5908]], dtype=torch.float32)
 
 print(input_data)
 result = model.forward(input_data)
 print(result)
 # 모델을 ONNX로 변환
-torch.onnx.export(model, input_data, 'xor_model.onnx', verbose=False)
-# onnx_model = onnx.load('./xor_model.onnx')
-# onnx.checker.check_model(onnx_model)
-# print(onnx.helper.printable_graph(onnx_model.graph))
+
+# torch.onnx.export(model, input_data, 'xor_model.onnx', verbose=False)
+onnx_model = onnx.load('./xor_model.onnx')
+onnx.checker.check_model(onnx_model)
+print(onnx.helper.printable_graph(onnx_model.graph))
